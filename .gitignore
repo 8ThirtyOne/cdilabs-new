@@ -1,0 +1,104 @@
+# =====================================================================
+# Sensitive data
+# =====================================================================
+
+# Backend library with DB / SMTP / AWS / reCAPTCHA credentials
+# (configEnv.php, configMail.php, awsUpload.php, ...) — lives outside
+# public_html on the server and must never be committed
+lcmodel/
+**/lcmodel/
+
+# Environment and credential files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa*
+.htpasswd
+.user.ini
+php.ini
+credentials*.json
+auth.json
+**/config.local.php
+**/*.local.php
+
+# Database dumps and backups
+*.sql
+*.sql.gz
+*.sqlite
+*.db
+*.bak
+*.backup
+*.old
+*.orig
+*.swp
+*~
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+backup/
+backups/
+
+# =====================================================================
+# Generated files
+# =====================================================================
+
+# Logs
+*.log
+error_log
+logs/
+**/error_log
+
+# Caches / sessions / temp
+cache/
+tmp/
+temp/
+sessions/
+.phpunit.result.cache
+
+# Dependencies
+vendor/
+node_modules/
+
+# Sitemap is rewritten by the admin panel (admin/includes/sitemap-update.php)
+public_html/sitemap.xml
+
+# =====================================================================
+# Uploaded content (admin panel / users)
+# =====================================================================
+
+# Files uploaded through the admin CMS (blogs, literatures, publications,
+# hero images, team, events, products, etc.). Keep folder structure only.
+public_html/files/**
+!public_html/files/**/
+!public_html/files/**/.gitkeep
+
+# =====================================================================
+# Design sources and files over GitHub's 100 MB limit
+# =====================================================================
+*.psd
+*.psb
+
+# Files larger than 100 MB (git can't filter by size, list them explicitly)
+public_html/media/videos/hero-vird-gpcr-02a.mov
+public_html/media/videos/hero-vird-gpcr-02b.mov
+public_html/media/videos/hero-vird-gpcr-02c.mov
+public_html/media/videos/hero-vird-gpcr-02d.mov
+public_html/media/videos/hero-vird-gpcr-01a.mov
+public_html/media/videos/hero-vird-gpcr-01b.mov
+public_html/media/videos/hero-vird-gpcr-01f.mov
+
+# =====================================================================
+# OS / editor
+# =====================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.code-workspace

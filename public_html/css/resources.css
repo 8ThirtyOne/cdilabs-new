@@ -1,0 +1,701 @@
+.docs-nav-wrapper{margin:0 auto}
+#literature-nav, #videos-nav{text-align:center}
+#literature-section{margin-top:0;padding-top:50px}
+.related-resources .card2-wrapper{max-width:960px}
+
+/*-------------------- PUBLICATIONS -----------------------*/
+#publications-hero{background-position: left bottom}
+#pub-count{
+  position:absolute;
+  left:0;
+  top:500px
+}
+#pub-count small{font-size:16px}
+#pub-count em{font:24px Camber Semibold; color:#fff}
+
+#pub-search-box{
+  float:left;
+  background:#1f3549;
+  width:92%;
+  padding:20px 4% 35px 4%;
+  border-radius:8px;
+  margin-bottom:40px
+}
+
+#pub-search-box h3{
+  color:#fff;
+  font:normal 18px Camber Medium;
+}
+
+#pub-form {float:left;width:100%}
+
+#pub-form fieldset {
+    position: relative;
+    float: left;
+    border: 0;
+    width: 48%;
+    margin:0 3% 13px 0
+}
+
+#pub-form fieldset:nth-child(even){margin-right:0}
+
+#pub-form label{display:none}
+
+#pub-form input {
+    float:left;
+    border-radius:3px;
+    background:#fff;
+    width:96%;
+    padding:2px 2%;
+    height:25px;
+    font:14px Camber Medium;
+    border:0
+}
+
+#pub-form #authors-field{
+  width:69%;
+  margin-right:3%
+} 
+
+#pub-form fieldset:nth-child(4) input:last-child{width:20%} 
+
+#pub-search-submit{clear:left;padding-top:20px}
+#pub-search-submit a:first-child{margin-right:15px}
+
+/*----- Publications List -----*/
+#publications-list{position:relative;margin-top:30px}
+
+#expand-abstracts {
+    float: right;
+    margin-bottom: 30px
+}
+
+#expand-abstracts .blue-btn{
+    padding:7px 15px 8px 16px;
+    border-radius: 5px;
+    font: 13px Camber Semibold; 
+    text-transform: uppercase
+}
+
+#pub-heading {
+    float: left;
+    width: 100%;
+    height: 20px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #eee
+}
+
+#pub-heading p{float:left;font: 18px Camber Semibold}
+
+#pub-heading ul {float:right;min-width:260px}
+
+#pub-heading li {
+    float: left;
+    margin-right: 35px;
+    font: 15px Camber Medium
+}
+#pub-heading li:last-child{margin-right:0}
+
+.pub-section {
+    float: left;
+    width:100%;
+    padding:3% 0;
+    border-bottom: 1px solid #ccc
+}
+
+.pub-section:last-child{border:0}
+
+.pub-left-col {float: left;width:65%}
+
+.pub-left-col div{
+  float:left;
+  width:25%;
+  margin-right:5%
+}
+.pub-left-col div img{border: 1px solid #bfbfbf; border-radius:4px}
+.pub-left-col div p{margin-top:10px;text-align:center;font: 14.5px/1.2 Camber Medium}
+
+.pub-left-col ul{float:left;width:70%}
+.pub-left-col li{margin-bottom:10px}
+.pub-left-col ul li span{
+  font:13.5px Camber Semibold;
+  color:#53565a
+}
+.pub-title{font:500 16px/1.3 Heebo;color: #101820}
+.pub-institution{color:#346c97;margin-bottom:0}
+
+.pub-right-col {
+    float:right;
+    width: 25%;
+    min-width:265px
+}
+
+.pub-right-col li{float:left;width:70px;text-align:center}
+.pub-right-col .pub-year{
+  width:47px;
+  font-family:Camber Medium;
+  margin-left:-7px;
+  text-align: center
+}
+.pub-right-col .pub-year span{display:block}
+.pub-right-col li:nth-child(2) {width:82px}
+.pub-right-col li:nth-child(3) {width:45px}
+
+.pub-right-col li:last-child {
+    width:77px;
+    cursor: pointer;
+    text-align:right
+}
+
+.pub-desc {
+    display:none;
+    float: left;
+    width: 100%;
+    padding-top: 15px
+}
+
+.pub-desc p{line-height:1.5}
+.pub-desc ul{margin-top:20px}
+.pub-desc li span{font-family:Camber Semibold}
+
+.pub-right-col .pdf-icon{width:26px}
+.pub-right-col .plus-icon{width:23px}
+.pub-right-col .link-icon{width:28px}
+
+.pdf-icon{fill:#e45025}
+.plus-icon{fill:#7c878e}
+.link-icon{fill:#fff;stroke:#7c878e}
+.featured-sidebar .small-left-arrow{fill:#346c97;vertical-align:middle}
+aside{overflow:scroll;height:2800px;max-height:4000px}
+
+/*////////////////////////// PDF VIEWER /////////////////////////////*/
+#pdf-page{margin:130px 0 5% 0;min-height:800px}
+#pdf-wrap{width:98%;background:#e5e5e5;padding:10px 1%}
+#pdf-header {position:fixed;text-align:center;width:100%;z-index:7;right:0;left:0;margin-right:auto;margin-left:auto;top:60px}
+#pdf-header-inner{position:relative;margin:0 auto;max-width:1200px;background:#e5e5e5;height:50px;border-top:40px solid #414447}
+#pdf-buttons{position:absolute;left:15px;top:12px;z-index:102}
+.page-btn{float:left;margin-right:10px}
+.page-btn svg{width:26px}
+#pdf-zoom-out svg{fill:#bbb;cursor:default}
+.pdf-download{
+  position:absolute;
+  right:11px;
+  top:8px;
+  width:300px
+}
+.pdf-download input, .pdf-download a{
+  font:500 13px Camber Semibold;
+  color:#fff;
+  border:0;
+  cursor:pointer;
+  padding:8px 15px 9px 18px;
+}
+.pdf-download a{
+  float:left;
+  color:#346c97;
+  border:1px solid #346c97;
+  padding:7px 15px 8px 18px
+}
+.pdf-download a:hover{
+  color:#588eb7;
+  border-color:#588eb7;
+}
+
+.pdf-download input{float: right}
+#page-count{margin:15px 0 0 0;padding:0;color:#000;font-size:18px}
+#pdf-viewer{float:left;width:100%;margin-top:15px}
+#pdf-thumb{display:none}
+#pdf-thumb .btn{padding:10px 0;font-size:18px}
+
+#non-pdf-page{background:#fff;padding-bottom:150px}
+#non-pdf-page .page-inner{margin-top:250px}
+#non-pdf-page .left-paragraph{width:35%}
+#non-pdf-page .right-paragraph{width:60%;padding-left:5%}
+#non-pdf-page h1{font:500 24px Heebo;color:#101820;margin:20px 0}
+
+/*------------------ VIDEOS ----------------------*/
+#videos-hero{margin-bottom: 40px}
+
+#videos-section{padding-bottom:50px}
+
+#videos-section .narrow-content{max-width:1175px;margin-bottom:0}
+
+#videos-nav{margin-bottom:15px}
+
+#videos-section h3{padding-top:0}
+
+#videos-section .card3-wrapper{grid-column-gap:24px}
+
+.video-box {
+  /* needed for the flex layout*/
+  margin:0 20px 100px 20px;
+  flex: 1 1 350px
+}
+@supports (display: grid) {
+  .card-layout .video-box {
+    margin: 0
+  }
+}
+
+.video-thmb{margin-bottom:20px}
+
+.video-body{margin:15px 0 35px}
+
+.video-title{
+ color:#101820;
+ font:500 16px/1.3 Heebo
+}
+
+.video-btn{
+  position: absolute;
+  top: 20px;
+  right: 0%;
+  padding: 6px 13px 7px 15px;
+  font: 14px Camber Medium
+}
+
+.video-btn:hover{
+  border-color: #346c97;
+  color: #346c97
+}
+
+.video-title:hover{color: #346c97}
+
+/*-------------- SINGLE VIDEO PAGE -----------------*/
+
+#video-section, #webinar-section{margin:125px 0 0; background: #101820;overflow-x:hidden}
+#video-section h4{margin:85px 0 45px; font-size: 25px; color: #fff}
+.center-paragraph {width: 75%}
+#video-section .center-paragraph:last-child{width: 75%}
+#video-section p{margin: 35px 0 100px; font: 16px/1.5 Camber Light; color: #bfbfbf; text-align:left}
+
+/*-------------- SINGLE WEBINAR PAGE -----------------*/
+#webinar-section{padding-bottom:100px;color:#fff}
+#webinar-section .page-inner{margin-top:85px}
+
+#webinar-section .left-paragraph{width:45%;padding-right:5%}
+
+#webinar-section .right-paragraph{width:50%}
+
+#webinar-section .blue-btn{font:15px Decagram Semibold;width:48px;margin-top:0;padding-left:17px;padding-right:8px;color:#fff}
+
+#webinar-section img{border:4px solid #333}
+
+#webinar-section h1{
+  font:24px Camber Semibold;
+  margin:60px 0 10px 0
+}
+
+#webinar-section #webinar-sub{
+  margin-bottom:30px;
+  color: #bfbfbf;
+  font:20px Camber Light;
+}
+
+#webinar-section h2{
+  padding-top:10px;
+  margin-bottom:5px;
+  font:20px Camber Semibold;
+  color:#fff
+}
+
+#webinar-section h3{
+  margin-bottom:3px;
+  font:15px Camber Light;
+  color:#fff
+}
+
+#webinar-section .left-paragraph ul{margin-top:20px}
+#webinar-section .left-paragraph li{margin-bottom:10px}
+#webinar-section p{color:#bfbfbf}
+#webinar-section .blue-btn{color:#fff}
+
+#webinar-abstract{
+  float:left;
+  width:100%;
+  margin-top:20px
+}
+
+#webinar-abstract p{
+  font: 15px/1.6 Camber Regular;
+  padding-top:15px;
+  color: #bfbfbf
+}
+
+#webinar-form-section{
+   padding-top:30px;
+   color:#bfbfbf;
+   background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(0,0,0,1) 100%)
+}
+#webinar-form-section h3{color:#fff}
+#webinar-form-section form{margin:30px 0 100px 0}
+#webinar-form-section input, #webinar-form-section textarea{border:0}
+#webinar-form-section #register-privacy a{color:#fff}
+
+/*-------- SECTION FOOTER OR HEADER -----------*/
+.section-footer{
+    position:relative;
+    padding:40px 0 60px 0;
+    width:100%;
+    text-align: center;
+    background:#fff
+}
+.section-footer:before, .section-footer:after{
+    content:'';
+    position:absolute;
+    top:0;
+    width:3000px;
+    height:100%;
+    background:#fff
+}
+
+.section-footer:before{left:-3000px}
+.section-footer:after{right:-3000px}
+.section-footer h3{
+    font:400 24px Heebo;
+    margin:20px 0 40px
+}
+.section-footer h3 em{color:#fff;font:30px Decagram Semibold}
+.section-footer span{margin-right:5px;vertical-align:middle}
+.section-footer a img{width:25px;vertical-align:middle}
+
+/*---------------- TECHNICAL NOTES ---------------------*/
+.technical-notes-hero .cdilabs-watermark{
+    position:absolute;
+    left:-100px;
+    top:100px;
+    width:600px;
+    z-index:4
+}
+
+.featured-left{margin-top:50px}
+.featured-left h2{
+  font:26px Decagram Semibold;
+  margin-bottom:20px
+}
+
+/*---------------- FAQS ------------------*/
+#faqs-section .card2-wrapper{
+  grid-template-columns:25% 74%;
+  grid-column-gap:70px
+}
+
+#faqs-sidebar{
+  position: relative;
+  background: #f0f1f2;
+}
+#faqs-sidebar:before{
+  content:'';
+  position: absolute;
+  left:-2000px;
+  top:0;
+  width:2000px;
+  height:100%;
+  background: #f0f1f2
+}
+
+#faqs-sidebar h2{
+  margin:52px 0 20px 0;
+  font:28px Camber Semibold;
+  color:#181818
+}
+
+#faqs-sidebar li{
+  margin-bottom:5px;
+  padding:0 20px 10px 15px
+}
+#faqs-sidebar li:before{top:13px}
+
+#faqs-sidebar li a{
+  font:16px Camber Regular
+}
+
+#faqs-top-nav{
+  margin:60px 0 50px 0;
+  width:100%;
+  float:left
+}
+#faqs-top-nav li{
+  position:relative;
+  float: left;
+  padding:0 25px
+}
+#faqs-top-nav li:first-child{
+  padding-left:0;
+  cursor: pointer;
+  color:#346c97;
+  font-family:Camber Semibold
+}
+#expand-answers{
+  margin-left:40px
+}
+#faqs-top-nav li:after{
+  content:'';
+  position: absolute;
+  right:0;
+  top:3px;
+  width:1px;
+  height:12px;
+  background: #181818
+}
+#faqs-top-nav li:last-child:after{display:none}
+
+/*--- FAQS category content body -----*/
+
+.faqs-category{
+  float:left;
+  width:100%;
+  margin-bottom:60px;
+  color:#181818
+}
+
+.faqs-category h2{
+  margin-bottom:35px;
+  font:500 23px Heebo;
+  color:#101820
+}
+
+.faqs-category h3{
+  position: relative;
+  margin:25px 0 0 0;
+  padding:0 0 15px 0;
+  font:19.5px Camber Regular;
+  color:#346c97
+}
+.faqs-category h3:first-child{margin-top:0}
+.faqs-category h3, .faqs-category h3:before{cursor:pointer}
+.faqs-category h3:before, #expand-answers:before{
+  content:url('../img/common/plus-icon-c2.svg');
+  position: absolute;
+  left:-40px;
+  top:2px;
+  width:22px;
+  height:22px
+}
+#expand-answers:before{top:-1px}
+#faqs-top-nav .question-before:before, .faqs-category .question-before:before
+{content:url('../img/common/minus-icon-c2.svg')}
+
+
+/*----Body----*/
+.faqs-body{padding-left:40px}
+
+.faqs-body h4{
+  font:17px Camber Semibold;
+  margin-bottom:12px
+}
+
+.faqs-body ul, .faqs-body table{
+  margin-bottom:20px
+}
+
+.faqs-body table th{
+  background:#020D1E
+}
+.faqs-body table th, .faqs-body table td{text-align:left}
+
+#hurpot-arrayc-table col:first-child{width:40%}
+#hurpot-arrayc-table col:last-child{width:60%}
+
+.faqs-body ol{margin-left:30px}
+.faqs-body ol li{padding:0 0 10px 5px}
+
+.faqs-body p{margin:0;padding-bottom:20px;font-size:14.5px;line-height:1.5}
+
+.faqs-paragraph{display:none}
+
+.faqs-paragraph .diagrams-wrapper{
+  margin:20px auto 25px auto
+}
+.faqs-paragraph p a, .faqs-paragraph li a{word-wrap: break-word}
+
+.cumulative-sum-graph, #grp-counts-graph{width:70%;padding:20px 0}
+
+/*---------------- MEDIA QUERIES --------------------*/
+
+@media all and (max-width:1600px){
+  #pdf-header {
+      width: auto
+  }
+}
+
+@media all and (max-width:1600px){
+  #faqs-section .card2-wrapper{grid-template-columns:25% 70%}
+}
+
+@media all and (max-width:1420px){
+  #pdf-header{top:30px}
+  #pdf-page{margin-top:110px}
+  .pub-left-col{width:60%}
+  #video-section{margin:50px 0 100px}
+  #video-section .center-paragraph:last-child{width:70%}
+  #non-pdf-page .page-inner{margin-top:200px}
+  #webinar-section{margin-top:30px}
+  #faqs-section .card2-wrapper{
+    grid-template-columns:27% 68%;
+    grid-column-gap:55px
+  }
+}
+
+@media all and (max-width:1285px){
+  #pub-count{top:300px}
+  #video-section .center-paragraph, #video-section .center-paragraph:last-child{width:80%}
+  #faqs-section .card2-wrapper{
+    grid-template-columns:23% 72%;
+    grid-column-gap:50px
+  }
+}
+
+@media all and (max-width:1150px){
+  .pub-left-col div{margin-right:8%}
+  .pub-left-col ul{width:62%}
+  #faqs-section .card2-wrapper{
+    grid-template-columns:repeat(1, minmax(100%, 1fr));
+    grid-column-gap:0
+  }
+  #faqs-top-nav{
+    position:absolute;
+    left:0;
+    top:30px;
+    margin:0;
+    float:none
+  }
+  #faqs-sidebar{
+    margin:80px 0 40px;
+    padding-bottom:40px
+  }
+  #faqs-sidebar:after{
+    content:'';
+    position:absolute;
+    right:-5.5%;
+    top:0;
+    width:5.5%;
+    height:100%;
+    background:#f0f1f2
+  }
+}
+
+@media all and (max-width:1120px){
+  .pub-left-col{width:70%}
+  .pub-left-col div{margin-right:5%}
+  aside{overflow:visible;height:100%;max-height:auto}
+  #non-pdf-page .center-paragraph{width:100%}
+}
+
+@media all and (max-width:990px){
+  .pub-left-col{width:65%}
+  #pdf-header{text-align:left}
+  #page-count{margin-left:100px}
+  .cumulative-sum-graph{width:100%}
+}
+
+@media all and (max-width:845px){
+  #literature-nav, #resources-list, #videos-nav{float:left}
+  #literature-nav li:nth-child(even), #videos-nav li:nth-child(even){display:none}
+  #literature-nav li, #videos-nav li{
+    display:inline-block;
+    float:left;
+    margin:0 20px 15px 0
+  }
+  #literature-nav li a, #videos-nav li a{
+    float:left;
+    width:120px;
+    padding:8px 0 9px;
+    border:1px solid #53565a;
+    border-radius:5px;
+    text-align: center;
+    font-size:15px
+  }
+  #literature-nav .current, #videos-nav .current{
+    background:#346c97;
+    border-color:transparent;
+    color:#fff
+  }
+
+  .pub-section{padding-bottom:20px}
+  #pub-heading ul{display:none}
+  .pub-section {position: relative}
+  .pub-left-col, .pub-right-col {
+      float: left;
+      width: 100%;
+      padding: 0
+  }
+  .pub-right-col{padding-top:10px}
+
+  #webinar-section .left-paragraph{width:100%;padding-right:0}
+  #webinar-section .right-paragraph{width:100%;float:left;margin-top:30px}
+  #webinar-section .right-paragraph img{max-width:500px}
+}
+
+@media all and (max-width:736px){
+   #pub-form fieldset{width:100%;margin-right:0}
+   .pub-left-col div p{text-align:left}
+    #video-section .center-paragraph, #video-section .center-paragraph:last-child{width:95%}
+    #grp-counts-graph{width:100%}
+}
+
+@media all and (max-width:670px){
+  #pub-count{top:0;position:relative;margin:0 auto 20px auto}
+  .pdf-download{width:270px}
+  #non-pdf-page .page-inner{margin-top:130px}
+  #non-pdf-page .left-paragraph, #non-pdf-page .right-paragraph{padding:0;width:100%}
+  #non-pdf-page .left-paragraph{width:300px}
+  #non-pdf-page h1{margin-top:30px}
+  #faqs-top-nav li{
+    padding:0;
+    margin-top:15px;
+    width:41%;
+    margin-right:12.5%;
+    font-size:16px;
+  }
+  #faqs-top-nav li:nth-child(odd){margin-right:0}
+  #faqs-top-nav li a{
+    display:block;
+    width:100%;
+    color:#fff;
+    padding:10px;
+    background:#346c97;
+    text-align:center;
+    border-radius:5px;
+    font:16px Camber Medium
+  }
+  #faqs-top-nav li a:hover{background:#588eb7}
+  #faqs-top-nav li:first-child{
+    margin:0 0 20px;
+    text-align:center;
+    padding:0;
+    float:none;
+    width:auto;
+    background:none;
+  }
+  #faqs-top-nav li:after{display:none}
+  #expand-answers:before{
+    display:inline-block;
+    position:relative;
+    left:0;
+    top:0;
+    vertical-align:top;
+    margin-right:10px
+  }
+  #faqs-sidebar{margin-top:170px}
+}
+
+@media all and (max-width:570px){
+  #pdf-page{margin-top:100px}
+  #pdf-header{top:0;text-align:center}
+  #pdf-header-inner{height:100px}
+  #page-count{margin-left:0}
+  .pdf-download{top:50px;text-align:center;width:95%}
+  .pdf-download input, .pdf-download a{float:none}
+  .pdf-download a{margin-right:20px}
+  #pdf-header p{font-size:15px}
+  #pdf-download i{font-size:18px}
+  #request-checkboxes input{padding:0}
+}
+
+@media all and (max-width:480px){
+  .pub-left-col div{margin-right:0;width:100%;margin-bottom:20px}
+  .pub-left-col div img{width:65%}
+  .pub-left-col ul{width:100%}
+  #non-pdf-page .left-paragraph img{width:100%}
+}

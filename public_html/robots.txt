@@ -1,0 +1,9 @@
+# robots.txt for https://www.cdilabs.com
+User-agent: *
+
+Disallow: /includes/*
+Disallow: /support/*
+Disallow: /404
+Disallow: /500
+
+Sitemap: https://www.cdilabs.com/sitemap.xml

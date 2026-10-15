@@ -67,30 +67,15 @@ if($detect->isMobile()){ ?>
   <?php 
   } 
 ?>
-<link rel="preconnect" href="https://cdn-cookieyes.com/">
-<link rel="preload" href="https://cdn-cookieyes.com/client_data/82ec697cfddb35173fe88a41/script.js" as="script" />
-<link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-<link href="https://www.googletagmanager.com/gtag/js?id=G-65RL72XEMK" rel="preload" as="script" />
-<link href="https://www.googletagmanager.com/gtm.js?id=GTM-WN9V9F8B" rel="preload" as="script" />
 <link rel="preload" href="https://js.sitesearch360.com/plugin/bundle/49938.js" as="script">
-<link rel="preload" href="https://static.ads-twitter.com/uwt.js" as="script">
-<link rel="preload" href="https://sc.lfeeder.com/lftracker_v1_lYNOR8xp9BN8WQJZ.js" as="script">
-<link rel="preload" href="https://snap.licdn.com/li.lms-analytics/insight.min.js" as="script">
 <link rel="preload" href="//js.hs-scripts.com/47509061.js" as="script">
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@cdi_labs" />
-<meta name="twitter:title" content="<?php echo $PageTitle; ?>" />
-<meta name="twitter:description" content="<?php echo $metaDesc; ?>" />
-<meta name="twitter:image" content="https://www.cdilabs.com/img/common/Logo-CDI-Labs-card.png" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="en" />
-<meta property="og:url" content="https://www.cdilabs.com/<?php echo $PageUrl; ?>" />
 <meta property="og:title" content="<?php echo $PageTitle; ?>" />
 <meta property="og:description" content="<?php echo $metaDesc; ?>" />
 <meta property="og:site_name" content="CDI Labs" />
-<meta property="og:image" content="https://www.cdilabs.com/img/common/Logo-CDI-Labs-card.png" />
+<meta property="og:image" content="https://cdilabs-new.8romans.com/img/common/Logo-CDI-Labs-card.png" />
 <meta property="og:type" content="website" />
-<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/82ec697cfddb35173fe88a41/script.js"></script>
 
 <!-- RB2B -->
 <script>
@@ -106,18 +91,3 @@ if($detect->isMobile()){ ?>
     reb2b.SNIPPET_VERSION = "1.0.1";reb2b.load("GOYPYHDE1GOX");}();
 </script>
 <!-- End RB2B -->
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WN9V9F8B');</script>
-<!-- End Google Tag Manager -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-65RL72XEMK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-65RL72XEMK');
-</script>

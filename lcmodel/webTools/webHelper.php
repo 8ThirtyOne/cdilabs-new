@@ -4,10 +4,10 @@ use lcmodel\webTools\PageHelper;
 use lcmodel\webTools\RowHelper;
 
 class WebHelper{
-    private $UploadPath = "/var/www/8romans.com/cdilabs/public_html/files";
+    private $UploadPath = "/var/www/8romans.com/cdilabs-new/public_html/files";
     private $doPath = "files";
 
-    public $Domain = "https://cdilabs.8romans.com"; 
+    public $Domain = "https://cdilabs-new.8romans.com"; 
     public $HomeURL = "/";            //==> "/"
  
     public $invCaptchaPublic = "6LcEJOkoAAAAAKD7aFugDIqj7rxKmMVUtJHBToWE"; 

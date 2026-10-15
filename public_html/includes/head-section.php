@@ -7,7 +7,6 @@
 <link rel="apple-touch-icon" href="/img/common/cdilabs-icon.png">
 <link rel="preload" href="https://use.typekit.net/mtm1gsv.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://use.typekit.net/mtm1gsv.css"></noscript>
-<link rel="preload" as="image" href="https://www.cdilabs.com/files/hero/main/20250108091839677eb36f0494f.jpg" fetchPriority="high" />
 <?php
  if(!isset($PageTitle)) $PageTitle = '';
  if(!isset($metaDesc)) $metaDesc = '';
